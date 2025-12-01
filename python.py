@@ -34,7 +34,7 @@ if (mode == "vi"):
         của đáp án đúng trong list Eng và vị trí xuất hiện của đáp án đúng trong 3 vị trí A B C  
         '''
         
-        list_posi=list (filter(lambda x:x!=posi and x!=s , range(0,10)))
+        list_posi=list (filter(lambda x: and x!=s , range(0,10)))
 
         for i in range(1,4):
                 
@@ -98,7 +98,7 @@ if (mode == "en"):
         của đáp án đúng trong list Eng và vị trí xuất hiện của đáp án đúng trong 3 vị trí A B C  
         '''
         
-        list_posi=list (filter(lambda x:x!=posi and x!=s , range(0,10)))
+        list_posi=list (filter(lambda x: x!=s , range(0,10)))
 
         for i in range(1,4):
                 
