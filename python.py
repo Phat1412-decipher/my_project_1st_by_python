@@ -65,7 +65,7 @@ if (mode == "vi"):
                     
                     c = random.choice(list_posi)
                     print("C. ", Eng[c]["mean"])
-                    list_posi.remove(c)
+                    
 
                          
         ans=input("nhập đáp án của bạn ... ").lower()
@@ -129,7 +129,7 @@ if (mode == "en"):
                     
                     c = random.choice(list_posi)
                     print("C. ", Vi[c]["mean"])
-                    list_posi.remove(c)
+                   
 
                          
         ans=input("nhập đáp án của bạn ... ").lower()
