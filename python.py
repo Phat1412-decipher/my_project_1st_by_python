@@ -31,7 +31,7 @@ if (mode == "vi"):
         posi=random.randint(1,3)
         ''' 
         tạo 1 list mới ko chứa giá trị của posi  và trong khoảng từ 0 đến 9 để xóa vị trí
-        của đáp án đúng trong list Eng và vị trí xuất hiện của đáp án đúng trong 3 vị trí A B C  
+        của đáp án đúng trong list Eng   
         '''
         
         list_posi=list (filter(lambda x: x!=s , range(0,10)))
@@ -95,7 +95,7 @@ if (mode == "en"):
         posi=random.randint(1,3)
         ''' 
         tạo 1 list mới ko chứa giá trị của posi  và trong khoảng từ 0 đến 9 để xóa vị trí
-        của đáp án đúng trong list Eng và vị trí xuất hiện của đáp án đúng trong 3 vị trí A B C  
+        của đáp án đúng trong list Vi
         '''
         
         list_posi=list (filter(lambda x: x!=s , range(0,10)))
