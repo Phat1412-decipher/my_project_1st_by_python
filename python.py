@@ -37,11 +37,6 @@ if (mode == "vi"):
         list_posi=list (filter(lambda x: x!=s , range(0,10)))
 
         for i in range(1,4):
-                
-            
-                
-           
-
             if i==1:
                 if posi==1:
                     print ("A. ",Eng[s]["mean"])
@@ -57,7 +52,6 @@ if (mode == "vi"):
                     b=random.choice(list_posi)
                     print ("B. ",Eng[b]["mean"])
                     list_posi.remove(b)
-                        
             if i==3:
                 if posi==3:
                     print ("C. ",Eng[s]["mean"])
@@ -65,9 +59,6 @@ if (mode == "vi"):
                     
                     c = random.choice(list_posi)
                     print("C. ", Eng[c]["mean"])
-                    
-
-                         
         ans=input("nhập đáp án của bạn ... ").lower()
         per_ans=0
         if ans=="a":
@@ -97,15 +88,9 @@ if (mode == "en"):
         tạo 1 list mới ko chứa giá trị của posi  và trong khoảng từ 0 đến 9 để xóa vị trí
         của đáp án đúng trong list Vi
         '''
-        
         list_posi=list (filter(lambda x: x!=s , range(0,10)))
 
         for i in range(1,4):
-                
-            
-                
-           
-
             if i==1:
                 if posi==1:
                     print ("A. ",Vi[s]["mean"])
@@ -121,7 +106,6 @@ if (mode == "en"):
                     b=random.choice(list_posi)
                     print ("B. ",Vi[b]["mean"])
                     list_posi.remove(b)
-                        
             if i==3:
                 if posi==3:
                     print ("C. ",Vi[s]["mean"])
@@ -129,9 +113,6 @@ if (mode == "en"):
                     
                     c = random.choice(list_posi)
                     print("C. ", Vi[c]["mean"])
-                   
-
-                         
         ans=input("nhập đáp án của bạn ... ").lower()
         per_ans=0
         if ans=="a":
@@ -150,3 +131,22 @@ if (mode == "en"):
         if s+1==11:
             per =False
     print(f"bạn đã hoàn thành bài kiểm tra với {sum} điểm")
+                
+            
+                
+           
+
+                        
+                    
+
+                         
+        
+                
+            
+                
+           
+
+                   
+                        
+
+                         
